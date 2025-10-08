@@ -26,6 +26,10 @@ vim.o.expandtab = true
 vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 
+-- Copy to system clipboard. May depend on xclip
+vim.o.clipboard = "unnamedplus"
+
+
 -- Setup lazy.nvim
 require("lazy").setup({
     spec = {
